@@ -1,7 +1,6 @@
-
-
-
 proc interpret*(code: string) = 
+    ## Interprets the brainfuck `code` string, reading from stdin and writing
+    ## to stdout.
     
     var
         tape = newSeq[char]()
